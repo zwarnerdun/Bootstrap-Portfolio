@@ -7,8 +7,8 @@
 }
 
 #contactName{
-padding-bottom: 40px;
-margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 
 }
 
@@ -52,10 +52,12 @@ margin-bottom: 20px;
     padding-top: 40px;
     padding-bottom: 30px;
     float: left;
+    margin-bottom: 50px;
+    margin-top: 150px;
 }
 
 .content{
-    width: 920px;
+    width: 960px;
     height: 500px;
     background: white;
     padding-left: 20px;
@@ -63,3 +65,8 @@ margin-bottom: 20px;
     padding-top: 20px;
     
 }
+
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
